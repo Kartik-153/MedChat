@@ -1,0 +1,8 @@
+__pycache__
+*.bin
+.ipynb_checkpoints/
+venv/
+MedChat.egg-info/
+.env
+*.egg-info
+env.bak/
