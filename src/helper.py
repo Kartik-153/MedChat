@@ -1,6 +1,6 @@
-from langchain.document_loaders import PyPDFLoader, DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
 
 
 #Extract data from the PDF
@@ -12,6 +12,7 @@ def load_pdf(data):
     documents = loader.load()
 
     return documents
+
 
 
 def text_split(extracted_data):
